@@ -1,8 +1,8 @@
 require 'sorting_algorithms'
 
 RSpec.describe SortingAlgorithms do
-	let(:arr) { [2,10,20,30,50,60,120] }
-	let(:arr_ordenate) { [2,10,20,30,50,60,120] } 
+	let(:arr) {[2,10,20,30,50,60,120]}
+	let(:arr_ordenate) {[2,10,20,30,50,60,120]} 
 	let(:sorting_algorithm) { SortingAlgorithms.new(arr) }
 	
 	context "testing bubble sort" do
