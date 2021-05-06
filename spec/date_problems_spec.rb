@@ -26,4 +26,12 @@ RSpec.describe DateProblems do
     end
   end
   
+  context "testing day week" do
+    let(:date) { 13 }
+    let(:month) { 7 }
+    let(:year) { 2017 }   
+    it "should return week equals 4" do
+      expect(date_problems.day_week(year, month, date)).to eq(4) 
+    end
+  end
 end
