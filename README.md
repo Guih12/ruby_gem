@@ -1,8 +1,6 @@
-# RubyGem
+<h1 align="center">ruby_gem 🚀</h1>
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby_gem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Seja bem vindo ao ruby_gem! Esse reposistório esta relacionado a 2 fase da mentoria "Desevolvendo-Me". A proposta deste repositório é a criação de uma gem, de códigos que foram desenvolvidos durante a primeira fase. Tais algoritmos de estrutura de dados: bubble_sort, select_sort, quick_sort, merge_sort e algotimos de problemas relacionádos a arrays, datas e strings.
 
 ## Installation
 
@@ -19,11 +17,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install ruby_gem
-
-## Usage
-
-TODO: Write usage instructions here
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -32,12 +25,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby_gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ruby_gem/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby_gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/Guih12/ruby_gem/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Code of Conduct
-
-Everyone interacting in the RubyGem project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ruby_gem/blob/master/CODE_OF_CONDUCT.md).
