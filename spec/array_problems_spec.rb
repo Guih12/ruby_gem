@@ -21,5 +21,14 @@ RSpec.describe ArrayProblems do
       expect(array_problems.right_rotate(arr, value, n)).to eq(output) 
     end
   end
+
+  context "testing problem find Three" do
+    let(:arr) { [12,45,1,-1,45,54,23,5,0,-10] }
+    let(:output) { [54,45,23] }  
+    it "should return new array equals [54, 45, 23] " do
+      n = arr.length
+      expect(array_problems.find_three(arr, n)).to eq(output)  
+    end
+  end
   
 end
