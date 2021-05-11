@@ -42,4 +42,24 @@ class ArrayProblems
     reverse_array(arr, 0, d - 1)
     reverse_array(arr, d, n - 1)
   end
+
+  def find_three(arr, n)
+    arr_sorted = arr.sort
+    arr_two = []
+    check = 0
+    count = 1
+
+    for i in 1..(n+1)
+      if count < 4
+        if check != arr_sorted[n-i]
+          arr_two.push(arr_sorted[n-i])
+          check =arr_sorted[n-i]
+          count +=1
+        end
+      else
+        break
+      end
+    end
+    arr_two
+  end
 end
