@@ -15,4 +15,20 @@ class StringProblems
     end
     count
   end
+
+  def missing_character(setence)
+    list = [false] * 26
+    letters = ('a'..'z').to_a
+
+    setence = setence.downcase.split('')
+    setence.each do |chars|
+      next if chars == ' '
+  
+      index_letter = letters.find_index(chars)
+      if index_letter
+        list[index_letter] = true
+      end
+    end
+    list.include?(false)
+  end
 end
